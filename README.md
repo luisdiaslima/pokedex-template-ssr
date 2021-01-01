@@ -51,7 +51,7 @@ The project was developed using the following technologies
 1. Make a clone :
 
 ```sh
-  $ git clone https://github.com/thisluis/pokenext.git
+  $ git clone https://github.com/luisdiaslima/pokenext.git
 ```
 
 2. Running the application:
