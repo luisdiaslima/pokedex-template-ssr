@@ -1,0 +1,72 @@
+html,
+body {
+  padding: 0;
+  background: #0f0f0f;
+  margin: 0;
+  font-family: 'Inter', sans-serif;
+}
+
+::-webkit-scrollbar-track {
+  background-color: #5d5656;
+}
+::-webkit-scrollbar {
+  width: 6px;
+  background: -webkit-linear-gradient(#be1313 ,#804343);
+}
+::-webkit-scrollbar-thumb {
+  background: -webkit-linear-gradient(#be1313 ,#804343);
+}
+
+.isGradient {
+  background: -webkit-linear-gradient(#be1313 ,#804343);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.pokeTitle {
+  background: -webkit-radial-gradient(#111010 ,#5d5656);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.pokeHeaderTitle {
+  background: -webkit-radial-gradient(#ffffff ,#7e7b7b);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.pokeHeaderTitle:hover {
+  background: -webkit-radial-gradient(#e02929 ,#9e5050);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.backContainer {
+  background: -webkit-radial-gradient(#e02929 ,#9e5050);
+  
+}
+
+.backContainer:hover {
+  background: -webkit-radial-gradient(#ffffff ,#7e7b7b);
+}
+
+.backOnlyContainer {
+  background: -webkit-linear-gradient(#d63232 ,#c0474700);
+
+
+}
+
+.typeTitle {
+  background: -webkit-radial-gradient(#000000 ,#2f2e2e);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+* {
+  box-sizing: border-box;
+}
